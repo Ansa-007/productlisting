@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>99 Names of Allah - Product Listing</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>99 Names of Allah</h1>
+            <p class="subtitle">Beautiful Islamic Calligraphy Collection</p>
+        </header>
+
+        <div class="filters">
+            <div class="filter-group">
+                <label for="search">Search:</label>
+                <input type="text" id="search" placeholder="Search by name...">
+            </div>
+            <div class="filter-group">
+                <label for="sort">Sort by:</label>
+                <select id="sort">
+                    <option value="default">Default Order</option>
+                    <option value="alphabetical">Alphabetical</option>
+                    <option value="reverse">Reverse Order</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="product-grid" id="productGrid">
+            <!-- Products will be dynamically inserted here -->
+        </div>
+
+        <div class="pagination">
+            <button id="prevBtn" class="nav-btn">← Previous</button>
+            <span id="pageInfo" class="page-info">Page 1 of 10</span>
+            <button id="nextBtn" class="nav-btn">Next →</button>
+        </div>
+
+        <div class="product-modal" id="productModal">
+            <div class="modal-content">
+                <span class="close" id="closeModal">&times;</span>
+                <div class="modal-body">
+                    <h2 id="modalTitle"></h2>
+                    <div class="modal-details">
+                        <p><strong>Arabic:</strong> <span id="modalArabic"></span></p>
+                        <p><strong>Transliteration:</strong> <span id="modalTransliteration"></span></p>
+                        <p><strong>Meaning:</strong> <span id="modalMeaning"></span></p>
+                        <p><strong>Owner:</strong> <span id="modalOwner"></span></p>
+                        <p><strong>Price:</strong> <span id="modalPrice"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
