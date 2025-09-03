@@ -151,7 +151,7 @@ This project is created for educational and religious purposes. The 99 Names of 
 
 ## 👥 Credits
 
-- **Developer**: Cascade AI Assistant
+- **Developer**: VS Code (Visual Studio Code)
 - **Content Owner**: Khansa Younas
 - **Islamic Content**: Traditional 99 Names of Allah (Asma ul Husna)
 - **Design**: Modern Islamic-inspired UI/UX
